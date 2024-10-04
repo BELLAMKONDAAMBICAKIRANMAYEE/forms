@@ -1,0 +1,17 @@
+.runningBatchTable select,
+.runningBatchTable input[type="datetime-local"] {
+  max-width: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .runningBatchTable select,
+  .runningBatchTable input[type="datetime-local"] {
+    width: 100%;
+  }
+
+  .runningBatchTable th,
+  .runningBatchTable td {
+    white-space: nowrap;
+  }
+}

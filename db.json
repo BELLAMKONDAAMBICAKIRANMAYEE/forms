@@ -1,0 +1,201 @@
+{
+    "trainer":[
+        {
+            "id":1,
+            "name":"akhila",
+            "moblienumber":1234567891,
+            "batch":{
+                "id":1,
+                "name":"jap-8"
+
+            }
+        },
+        {
+            "id":2,
+            "name":"sai",
+            "moblienumber":1234567891,
+            "batch":{
+               "id":2,
+               "name":"jap-8"
+
+            }
+        },
+        {
+            "id":3,
+            "name":"kishor",
+            "moblienumber":1234567891,
+            "batch":{
+               "id":3,
+               "name":"jap-8"
+
+            }
+        },
+        {
+            "id":4,
+            "name":"lavanya",
+            "moblienumber":1234567891,
+            "batch":{
+                "id":1,
+                "batchname":"jap-8",
+                "startdate":"2/02/2023"
+
+            }
+        },
+        {
+            "id":5,
+            "name":"anade",
+            "moblienumber":1234567891,
+            "batch":{
+                "id":2,
+                "batchname":"jap-9",
+                "startdate":"8/03/2023"
+
+            }
+        }
+    ],
+
+
+    "batch":[
+        {
+            "id":1,
+            "batchname":"jap-8",
+            "startdate":"2/02/2023",
+            "Runingbatch":{
+                "id":2
+            }
+        },
+        {
+            "id":2,
+            "batchname":"jap-9",
+            "startdate":"8/03/2023",
+            "Runingbatch":{
+                "id":3
+            }
+        },
+        {
+            "id":3,
+            "batchname":"jap-10",
+            "startdate":"18/05/2023",
+            "Runingbatch":{
+                "id":1
+            }
+        }
+
+    ],
+
+
+    "subject":[
+        {
+            "id":1,
+            "name":"core java",
+            "Runingbatch":{
+                "id":1
+            }
+        },
+        {
+            "id":2,
+            "name":"adv java",
+            "Runingbatch":{
+                "id":2
+            }
+        },
+        {
+            "id":3,
+            "name":"Mysql",
+            "Runingbatch":{
+                "id":3
+            }
+        },
+        {
+            "id":4,
+            "name":"html",
+            "Runingbatch":{
+                "id":4
+            }
+        }
+    ],
+
+
+
+    "Runingbatch":[
+        {
+            "id":1,
+            "batch":{
+                "id":1
+
+            },
+            "trainer":{
+                "id":1
+            },
+            "subject":{
+                "id":1
+            },
+            "startdate":"2/05/2023",
+            "endingdate":"06/09/2023"
+            
+        },
+        {
+            "id":2,
+            "batch":{
+                "id":1
+            },
+            "trainer":{
+                "id":1
+            },
+            "subject":{
+                "id":1
+            },
+            "startdate":"2/05/2023",
+            "endingdate":"06/09/2023"
+            
+        },
+        {
+            "id":3,
+            "batch":{
+                "id":1
+            },
+            "trainer":{
+                "id":1
+            },
+            "subject":{
+                "id":1
+            },
+            "startdate":"2/05/2023",
+            "endingdate":"06/09/2023"
+            
+        },
+        {
+            "id":4,
+            "batch":{
+                "id":1
+            },
+            "trainer":{
+                "id":1
+            },
+            "subject":{
+                "id":1
+            },
+            "startdate":"2/05/2023",
+            "endingdate":"06/09/2023"
+            
+        },
+        {
+            "id":5,
+            "batch":{
+                "id":1
+            },
+            "trainer":{
+                "id":1
+            },
+            "subject":{
+                "id":1
+            },
+            "startdate":"2/05/2023",
+            "endingdate":"06/09/2023"
+            
+        }
+    ]
+
+
+
+}
